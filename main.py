@@ -25,15 +25,17 @@ def on_message(ws, _msg):
                             for predict in predicts:
                                 value = predict["value"]
                                 if value == "CONCENTRATION":
-                                    # print(predict)
-                                    pass
+                                    print(predict)
+                                    # pass
 
                     # EEG data coming from (local) desktop app:
                     if success["stream_name"] == "eeg":
                         channels_data = success["channels_data"]
                         railing = success["railing"]
-                        print(channels_data)
+                        # Uncomment the following lines to see the data
+                        # print(channels_data)
                         # print(railing)
+                        # pass
 
         if msg["result"]["failure"]:
             for failure in msg["result"]["failure"]:

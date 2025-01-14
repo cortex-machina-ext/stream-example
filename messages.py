@@ -1,6 +1,12 @@
-app_id = "grapher-app"  # do not change this
+app_id = "stream-example-app"
 
 subscribe_message = {
     "method": "SUBSCRIBE_STREAMS",
-    "params": {"streams": ["ml", "eeg"], "app_id": app_id},
+    "params": {
+        "streams": [
+            "eeg",
+            "ml",
+        ],
+        "app_id": app_id,
+    },
 }
