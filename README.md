@@ -1,6 +1,6 @@
 # WebSocket Data Processing Application
 
-This README explains the functionality and usage of the provided Python script, which processes data streams from Cotex Machina PRO local WebSocket server. The application handles both model (ML) predictions and EEG (Electroencephalography) data streams.
+This README explains the functionality and usage of the provided Python script, which processes data streams from Cortex Machina PRO local WebSocket server. The application handles both model (ML) predictions and EEG (Electroencephalography) data streams.
 
 ## Prerequisites
 
