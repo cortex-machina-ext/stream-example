@@ -96,7 +96,7 @@ rel.dispatch()
 3. Run the script:
 
 ```bash
-python script_name.py
+python main.py
 ```
 
 4. Monitor the console output for processed data and connection events.
